@@ -68,7 +68,7 @@ int main()
     h = h * 2; // Multiplicación
     std::cout << "Valor de h después de h = h * 2: " << h << std::endl;
 
-    /*// Operadores adicionales
+    // Operadores adicionales
     int m = 10;
     int n = 3;
     int mod = m % n; // Operador de módulo
@@ -83,9 +83,9 @@ int main()
     // Operadores binarios
     int bin1 = 5;                  // 0101 en binario
     int bin2 = 3;                  // 0011 en binario
-    int binAnd = bin1 & bin2;      // AND binario
-    int binOr = bin1 | bin2;       // OR binario
-    int binXor = bin1 ^ bin2;      // XOR binario
+    int binAnd = bin1 & bin2;      // AND binario = 0001
+    int binOr = bin1 | bin2;       // OR binario = 0111
+    int binXor = bin1 ^ bin2;      // XOR binario = 0110
     int binNot = ~bin1;            // NOT binario
     int binShiftLeft = bin1 << 1;  // Desplazamiento a la izquierda
     int binShiftRight = bin1 >> 1; // Desplazamiento a la derecha
@@ -112,6 +112,5 @@ int main()
     int ternaryResult = (intVar > d) ? intVar : d; // Si a es mayor que d, asignar a a ternaryResult, de lo contrario asignar d
     std::cout << "Resultado del operador ternario (a > d ? a : d): " << ternaryResult << std::endl;
 
-    */
     return 0;
 }
