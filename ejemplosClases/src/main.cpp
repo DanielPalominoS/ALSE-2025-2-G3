@@ -6,8 +6,9 @@ int main()
 {
     Complex c1;           // Llama al constructor por defecto
     Complex c2(2.3, 5.0); // Llama al constructor general
-    Complex c3(c2);       // Llama al constructor de copia
-
+    Complex c3(c2);       // Llama al constructor de copia   
+    
+    
     c1.SetData(); // Solicita al usuario que introduzca los valores real e imaginario
     cout << "Complejo 1: " << c1.GetReal() << " + " << c1.GetImag() << "i" << endl;
     cout << "Complejo 2: " << c2.GetReal() << " + " << c2.GetImag() << "i" << endl;
